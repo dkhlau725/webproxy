@@ -2,12 +2,8 @@
 a basic web proxy and blocker in C
 
 How Do I Run the Web Proxy?
-  1. Make sure you are on a Linux machine - the proxy uses UNIX only libraries. The proxy
-     was tested primarily on the school servers (linux.cpsc.ucalgary.ca) using SSH from
-     Visual Studio Code.
-  2. Use the command “hostname -i” to discover the machine’s IP. Go into a1-proxy.c and
-     a1-blocker.c and adjust the variable “PROXY_IP” on line 5 to the IP (make sure the IP is
-     in between the double quotes).
+  1. Make sure you are on a Linux machine - the proxy uses UNIX only libraries. The proxy was tested primarily on the school servers (linux.cpsc.ucalgary.ca) using SSH from Visual Studio Code.
+  2. Use the command “hostname -i” to discover the machine’s IP. Go into a1-proxy.c and a1-blocker.c and adjust the variable “PROXY_IP” on line 5 to the IP (make sure the IP is in between the double quotes).
   3. In your browser (Firefox is recommended), change the network configuration so it
      connects to the proxy. In Firefox, go to Settings > Network Settings, and select Manual
      proxy configuration. Change the IP address to the one you set in step 2 and select any
